@@ -1,0 +1,25 @@
+{
+  "name": "hadjirmashiri",
+  "version": "1.0.0",
+  "description": "a little about myself",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hadjir Mashiri",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-ui-router": "^0.3.2",
+    "bootstrap": "^3.3.7",
+    "connect": "^3.6.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-open": "^2.0.0",
+    "jquery": "^3.1.1",
+    "serve-static": "^1.12.0",
+    "wiredep": "^4.0.0"
+  }
+}

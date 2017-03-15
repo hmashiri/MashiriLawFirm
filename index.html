@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mashiri Law Firm - San Diego Attorney, Lawyer </title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Mashiri Law Firm - Collection Defense, Employment Law, Unwanted Calls, Unfair debt collection, Personal Injury, Credit Repair" />
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="app/styles/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+</head>
+
+<body ng-app="app" class="ng-cloak">
+
+    <div class="nav">
+        <div class='logo'>Mashiri Law Firm</div>
+        <ul class="menu">
+            <li class="btMenu">
+                <a href="javascript:void(0)">MENU</a></li>
+            <li class="menuItem"><a ui-sref="home">Home</a></li>
+            <li class="menuItem"><a ui-sref="about">About Attorney</a></li>
+            <li class="menuItem"><a ui-sref="practiceareas">Practice Areas</a></li>
+            <li class="menuItem"><a ui-sref="caseresults">Case Results</a></li>
+            <li class="menuItem"><a ui-sref="blog">Blog</a></li>
+            <li class="menuItem"><a ui-sref="contact">Contact Us</a></li>
+        </ul>
+    </div>
+    <div id="wowslider-container1">
+        <div class="ws_images">
+            <ul>
+                <li><img src="data1/images/slide5.jpg" alt="Welcome to the 'People's Law Firm'" title="Welcome to the 'People's Law Firm'" id="wows1_0" /></li>
+                <li><img src="data1/images/collection.jpg" alt="Having debt issues? We can help!" title="Having debt issues? We can help!" id="wows1_1" /></li>
+                <li>
+                    <a href="http://wowslider.com/vi"><img src="data1/images/slide3.jpg" alt="bootstrap carousel" title="Car accident? Contact us today!" id="wows1_2" /></a>
+                </li>
+                <li><img src="data1/images/unwantedcalls.jpg" alt="Getting unwanted telephone calls? Let us know!" title="Getting unwanted telephone calls? Let us know!" id="wows1_3" /></li>
+            </ul>
+        </div>
+        <div class="ws_bullets">
+            <div>
+                <a href="#" title="Welcome to the 'People's Law Firm'"><span><img src="data1/tooltips/slide5.jpg" alt="Welcome to the 'People's Law Firm'"/>1</span></a>
+                <a href="#" title="Having debt issues? We can help!"><span><img src="data1/tooltips/collection.jpg" alt="Having debt issues? We can help!"/>2</span></a>
+                <a href="#" title="Car accident? Contact us today!"><span><img src="data1/tooltips/slide3.jpg" alt="Car accident? Contact us today!"/>3</span></a>
+                <a href="#" title="Getting unwanted telephone calls? Let us know!"><span><img src="data1/tooltips/unwantedcalls.jpg" alt="Getting unwanted telephone calls? Let us know!"/>4</span></a>
+            </div>
+        </div>
+     
+        <div class="ws_shadow"></div>
+    </div>
+    <div ui-view></div>
+    <footer id="footer">
+        <div class="container">
+        	<div class="col-lg-4 col-sm-4 col-md-4">
+                <h4>NAVIGATION</h4>
+                <p><a ui-sref="about">About Attorney</a>
+           		<p><a ui-sref="practiceareas">Practice Areas</a>
+            	<p><a ui-sref="caseresults">Case Results</a>
+            	<p><a ui-sref="blog">Blog</a>
+            	<p><a ui-sref="contact">Contact Us</a>
+            </div>
+            <div class="col-lg-4 col-sm-4 col-md-4">
+                <h4>OFFICE ADDRESS</h4>
+                <p>9750 Miramar Rd Suite 214
+                    <p>San Diego, California
+                        <h4>MAILING ADDRESS</h4>
+                        <p>11251 Rancho Carmel Dr. #5000694
+                            <p>San Diego, California
+            </div>
+            <div class="col-lg-4 col-sm-4 col-md-4">
+                <h4>CONTACT</h4>
+                <p>Attorney Alex Mashiri
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> (858) 348-4938
+                        <p><i class="fa fa-fax" aria-hidden="true"></i> (858) 348-4939
+                            <p><i class="fa fa-envelope" aria-hidden="true"></i> <a class="email" href="mailto: alexmashiri@yahoo.com">AlexMashiri@yahoo.com</a>
+            </div>
+        </div>
+        <div class="text-center">
+        </div>
+    </footer>
+    <!--/#footer-->
+    <div class="text-center">
+        <p>Copyright &copy; 2017 - Mashiri Law Firm | All Rights Reserved</p>
+    </div>
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./bower_components/angular-ui-router/release/angular-ui-router.js">
+    </script>
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/mashiri.controller.js"></script>
+    <script src="app/mashiri.service.js"></script>
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+    <script type="text/javascript" src="app/mobile.js"></script>
+<center><button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="This is the popover content.">
+  Show Popover
+</button>
+</body>
+
+</html>

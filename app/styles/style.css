@@ -1,0 +1,567 @@
+/*Basic Styles*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #fff7e6;
+    color: black;
+    font-weight: 200;
+    font: 13px/1.5 Lato, "Century Gothic", "Trebuchet MS", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 50px;
+}
+
+.ng-cloak {
+    display: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.125 ease-in-out 0s;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+    -moz-transition: all 0.125s ease-in-out 0s;
+    -ms-transition: all 0.125s ease-in-out 0s;
+    -o-transition: all 0.125s ease-in-out 0s;
+}
+
+ul,
+ol {
+    margin: 1em 0 2em 0;
+    padding: 0 0 0 20px;
+}
+
+a:hover {
+    color: #89d460;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #fff7e6;
+}
+
+.nav > .menu > .btMenu {
+    display: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+h2 {
+    margin: .25em 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 300;
+    color: #2b2b2b;
+    cursor: default;
+}
+
+
+/*=============================NAVIGATION=========================*/
+
+body>.nav {
+    width: 100%;
+    margin: 0;
+    float: left;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    background: #3b2612;
+}
+
+body>.nav > .menu {
+    list-style: none;
+    margin: 0 80px 0 0;
+    padding: 0;
+    float: right;
+}
+
+body>.nav > .menu > li {
+    display: inline-block;
+    float: left;
+}
+
+body>.nav > .menu > li > a {
+    padding: 18px 16px;
+    color: white;
+    float: left;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+body>.nav > .menu > li > a:hover {
+    background: #fff7e6;
+    color: #331a00;
+}
+
+body>.nav > .menu > .btMenu {
+    display: none;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+/*==========================Header==============================*/
+
+header {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    height: auto;
+    background-color: #000 !important;
+    background-size: cover;
+}
+
+header>.container {
+    height: 100%;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    color: #fff7e6;
+    left: 5%;
+    font-family: Bookman Old Style;
+    font-weight: bold;
+    font-size: 36px;
+    display: block;
+    width: 352px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.menu_header {
+    position: absolute;
+    top: 34px;
+    right: 5%;
+    display: inline;
+    z-index: 2;
+}
+
+.menu_header a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    outline: none;
+    font-weight: 400;
+    color: #fff;
+    float: left;
+    opacity: 1;
+}
+
+.titles {
+    color: #fff;
+    min-height: 300px;
+    height: auto;
+}
+
+.title-one {
+    color: #3b2612;
+}
+
+.titles h1 {
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    font-size: 5em;
+    font-weight: 100;
+    color: #fff;
+    cursor: default;
+    font-family: Bookman Old Style;
+}
+
+.logos {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.logos img {
+    width: 100%;
+}
+
+/*=============================WELCOME==============================*/
+
+.welcometable {
+    width: 96.2%;
+    padding: 3%;
+    height: 100%;
+    background: white;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: #3b2612;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/*=============================ABOUT==============================*/
+
+.abouttable {
+    width: 47%;
+    padding: 3%;
+    height: 500px;
+    background: white;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-color: #3b2612;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+/*=============================PRACTICE AREAS==============================*/
+
+.pa {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3b2612;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.papics {
+	width: 100%;
+	height: 125px;
+	margin-bottom: 5px;
+}
+.column {
+	background-color: white;
+	margin-top: 10px;
+	height: 480px;
+	margin-bottom: 10px;
+} 
+
+/*=============================CONTACT==============================*/
+
+#contact {
+    overflow: hidden;
+    background-color: #fff7e6;
+    position: relative;
+    padding-bottom: 85px;
+    border-top: 2px solid #3b2612;
+    color: black;
+}
+
+#contact .contact-heading {
+    padding-bottom: 35px;
+    position: relative;
+    z-index: 10;
+}
+
+.contact-details {
+    padding-top: 75px;
+}
+
+.pattern {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    background-image: url(../images/pattern.png);
+    background-repeat: repeat;
+    opacity: 0.2;
+}
+
+.contact-address {
+    background-color: #734d26;
+    height: 390px;
+    padding-top: 85px
+}
+
+.contact-address .social-icons a i {
+    border-radius: 0;
+    height: 30px;
+    line-height: inherit;
+    width: 30px;
+    border-width: 0;
+    transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    margin-right: 10px
+}
+
+.contact-address .social-icons i:hover {
+    transform: scale(.9);
+}
+
+.social-icons a {
+    color: #fff7e6;
+    font-size: 20px;
+    border: 1px solid #A2A2A2;
+    border-radius: 50%;
+    text-align: center;
+    padding: 6px;
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.social-icons a:hover {
+    color: #3b2612;
+    border: 1px solid white;
+}
+
+.contact-address .social-icons,
+.contact-address address {
+    z-index: 2;
+    position: relative
+}
+
+.contact-address p {
+    font-weight: 800;
+    font-size: 24px
+}
+
+.contact-address p span {
+    color: #fff7e6;
+}
+
+#contact-form-section {
+    padding: 35px;
+    background-color: #734d26;
+    height: 390px;
+}
+
+#contact-form-section .btn-primary {
+    background-color: #fff7e6;
+    border-color: #f6f6f6;
+    border-radius: 0;
+    color: black;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+}
+
+#contact-form-section .btn-primary:hover {
+    background-color: #3b2612;
+    color: #fff7e6;
+}
+
+#contact-form input,
+#contact-form textarea,
+#contact-form .btn-primary {
+    position: relative;
+    z-index: 2;
+}
+
+#contact-form .name-field,
+#contact-form .mail-field {
+    width: 49%;
+}
+
+#contact-form .name-field {
+    margin-right: 2%;
+    float: left
+}
+
+#contact-form .mail-field {}
+
+#contact-form-section .form-control {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#contact-form-section textarea {
+    resize: none
+}
+
+#contact-form-section .form-control:focus {
+    border-color: #3285ff;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/*===========================FOOTER===========================*/
+
+#footer {
+    background-color: #3b2612;
+    padding: 25px 0;
+    font-size: 16px;
+    position: relative;
+    margin-top: 1px;
+    color: white;
+    height: 400px;
+}
+
+h4 {
+    color: #fff7e6;
+}
+
+.email {
+    color: #fff7e6;
+}
+
+#footer p {
+    margin: 0;
+}
+
+
+/*===========================MOBILE===========================*/
+
+@media (max-width: 1000px) {
+    .logo {
+        display: none;
+    }
+    body>.nav > .menu {
+        width: 100%;
+        margin: 0;
+    }
+    body>.nav > .menu > li {
+        width: 100%;
+        display: none;
+        text-align: center;
+    }
+    body>.nav > .menu > li > a {
+        padding: 8px 20px;
+        width: 100%;
+    }
+    body>.nav > .menu > .btMenu {
+        display: inline-block;
+        padding: 12px 16px;
+    }
+    #footer {
+        background-color: #3b2612;
+        padding: 25px 0;
+        font-size: 16apx;
+        position: relative;
+        margin-top: 1px;
+        color: white;
+        height: 400px;
+    }
+    h4 {
+        color: #fff7e6;
+    }
+    .email {
+        color: #fff7e6;
+    }
+    #footer p {
+        margin: 0;
+    }
+    .pa {
+        width: 100%;
+        height: 100%;
+        background: white;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .abouttable {
+	    width: 100%;
+	    padding: 5%;
+	    height: 100%;
+	    background: white;
+	    border-left-style: solid;
+	    border-left-width: 1px;
+	    border-color: #3b2612;
+	    margin-left: 3px;
+	    margin-top: 35px;
+	    margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 775px) {
+    .logo {
+        display: none;
+    }
+    body>.nav > .menu {
+        width: 100%;
+        margin: 0;
+    }
+    body>.nav > .menu > li {
+        width: 100%;
+        display: none;
+        text-align: center;
+    }
+    body>.nav > .menu > li > a {
+        padding: 8px 20px;
+        width: 100%;
+    }
+
+    body>.nav > .menu > .btMenu {
+        display: inline-block;
+        padding: 12px 16px;
+    }
+
+    #footer {
+        background-color: #3b2612;
+        padding: 25px 0;
+        text-align: center;
+        font-size: 16apx;
+        position: relative;
+        margin-top: 1px;
+        color: white;
+        height: 550px;
+    }
+
+    h4 {
+        color: #fff7e6;
+    }
+
+    .email {
+        color: #fff7e6;
+    }
+
+    #footer p {
+        margin: 0;
+    }
+
+    .pa {
+        width: 100%;
+        height: 100%;
+        margin-left: -1px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        background: white;
+    }
+
+    .papics {
+    	width: 350px;
+    	margin-bottom: 5px;
+    }
+
+    .column {
+    	height: 100%;
+    }
+}
